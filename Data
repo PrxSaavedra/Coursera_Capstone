@@ -1,0 +1,15 @@
+Data
+
+We will need:
+
+a) Madrid's coordinates
+b) Madrid's geographical organization, called districts
+  https://es.wikipedia.org/wiki/Anexo:Distritos_de_Madrid
+c) Madrid's venues usually visited by locals:
+  Universities in each district
+  Offices in each district
+d) Madrid's venues usually visited by foreigners:
+  Tourirst venues in each district
+e) Indian restaurants in each district
+
+For points c), d) and e) we will try to use Foursquare information.
