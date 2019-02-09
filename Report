@@ -1,0 +1,57 @@
+Introduction
+
+Madrid is a big economic city, but also one of main tourism destination in Spain, a tourist country. In this context, our client wants 
+to open a restaurant. Since he just came from travelling India and there are not many Indian restaurants in Madrid and they tend to be
+concentrated in some areas, he wants to explore the possibility or opening an Indian restaurant in an area with no Indian restaurants or 
+as few as possible.
+
+Business problem
+
+There are two main problems to face in such situation:
+1.- Build an Indian eating option that is diverse from traditional. Such is a business model issue for which our client has hired a 
+professional.
+2.- Determine the place where this new offer will be placed. For that we have been hired. We need to determine other Indian offers in 
+the area, but also sources of clientele, should it be local (by being near universities, offices, etc) or foreign (by being near tourist 
+attractions).
+
+Data
+
+We will need:
+
+a) Madrid's coordinates
+b) Madrid's geographical organization, called districts
+  https://es.wikipedia.org/wiki/Anexo:Distritos_de_Madrid
+c) Madrid's venues usually visited by locals:
+  Universities in each district
+  Offices in each district
+d) Madrid's venues usually visited by foreigners:
+  Tourirst venues in each district
+e) Indian restaurants in each district
+
+For points c), d) and e) we will try to use Foursquare information.
+
+Methodology
+
+Taking into consideration what said above, I tried to apply all what we have learned in the courses plus some exploration outside. For this,
+I first got the information I needed and create the basis dataframe including: name of distritos and coordinates. I showed such information
+in a map. In the Foursquare website, I got the category id for Indian Restaurants, so I would be able to get all Indian restaurants already
+existing and detect areas with enough offer. At this point I got the "KeyError: 'groups'" and I was not able to fix it. With the same 
+function I would have been able to retrieve information on venues for locals and foreigners (as said in the Data Section). Crossing all 
+that information, we would be able to complete the business problem 2, our duty. For such end, we could show the results in different maps
+(using the same method as we use before with folium).
+
+Results
+
+We got the (KeyError: 'groups') issue, so we could not continue. Nonetheless, I believe the methodology is solid and the result would be two
+maps (one for local and one for foreigners) showing geographical areas that represent an opportunity for a new Indian restaurant. Also, with
+the coordinates information, we could respond to our client regarding any distance to a venue of reference.
+
+Discussion
+
+I believe the (KeyError: 'groups') issue is not resolved in the course or any of the fora (I have been looking for a solution in the Forum)
+but it is only a code error that do not shadows the data science abilities adquired throughout the 9 courses.
+
+Conclusions
+
+This has been a long but satisfying learning path. The aforementioned error does not mean anything else but the need to keep learning and
+an incentive to do so.
